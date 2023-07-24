@@ -8,9 +8,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Strength />
-        <Weakness/>
-        <Squad />
+        {/* <Strength /> */}
+        {/* <Weakness/> */}
+        {/* <Squad /> */}
         <Hero />
       </header>
     </div>

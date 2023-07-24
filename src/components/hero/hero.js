@@ -85,7 +85,7 @@ class Hero extends Component{
     //when the page loads, display the squad list
     async componentDidMount(){
         let heroesList =await API.get("hero/all");
-        console.log(heroesList.data);
+        // console.log(heroesList.data);
         this.setState({heroes : heroesList.data})
     }
 
